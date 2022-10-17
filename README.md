@@ -9,8 +9,10 @@ Adds a "Download" button to a Thingsboard time series widget, which allows you t
 ## How to use
 The code in action.js has been written as a custom action for use in a Thingsboard community edition widget.
 You can use it to create a Download button for say a time-series table widget.  
-You do this by creating a custom action in the widget - I suggest a widget header button, and the download or share icon.
-Review and if you are happy with how it works, paste the code in action.js into the custom action text box.
+You do this by:
+* Create a custom action in the widget - I suggest a widget header button, and the download or share icon.
+* Review the code in action.js and if you are happy with how it works, paste the code into the custom action text box.
+* Save everything and refresh the dashboard.
 
 ## What the end-user should see
 Now when you view the widget in the dashboard you should see your new icon.
