@@ -67,7 +67,7 @@ function createCSV(rows,labels) {
     const now=new Date();
     var filename="dash-"+now.toISOString()+".csv";
     var dl = document.createElement('a');
-    dl.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodedUri);
+    dl.setAttribute('href', encodedUri);
     dl.setAttribute('download', filename);
     dl.click();
     
